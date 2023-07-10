@@ -1,13 +1,12 @@
 # Apache-Airflow-Data-Pipeline
 - Project completed as part of Udacity's Data Engineering with AWS Nanodegree Program
 - Project delivered in July 2023
-- Repository includes 11 files:
+- Repository includes 10 files:
     * A `SDK_create.ipynb` notebook that contains a series of scripts to create an IAM role, the Redshift cluster, and create the tables in the Redshift cluster
     * An `airflow.cfg` configuration file that contains the parameters for the Redshift cluster and the S3 buckets that contain the source data
     * A `SDK_destroy.ipynb` notebook that contains a series of scripts to remove the IAM role and Redshift cluster created for the project
     * Screenshots of the Apache Airflow UI:
         * `Apache_Airflow-Connections.jpg`
-        * `Apache_Airflow-DAG.jpg`
     * For the Apache Airflow folder:
         * Within the `dags` folder, the `final_project.py` that contains the Directed Acyclic Graph (DAG) for the project
         * Within the `plugins/final_project_operators` folder, the `stage_redshift.py`, `load_fact.py`, `load_dimension.py`, `data_quality.py` files that contain the custom operators for the project
