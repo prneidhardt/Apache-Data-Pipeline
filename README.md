@@ -1,5 +1,4 @@
 # Apache-Airflow-Data-Pipeline
-- Project completed as part of Udacity's Data Engineering with AWS Nanodegree Program
 - Project delivered in July 2023
 - Repository includes 10 files:
     * A `SDK_create.ipynb` notebook that contains a series of scripts to create an IAM role, the Redshift cluster, and create the tables in the Redshift cluster
